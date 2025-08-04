@@ -86,7 +86,6 @@ train_D1.sh
 train_D2.sh
 train_D3.sh
 train_entire.sh
-train_single_database.py
 train_vit_baseline.sh
 train.sh
 
