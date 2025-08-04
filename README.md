@@ -1,15 +1,15 @@
-# DAWIQA - 深度学习图像质量评估项目
+# DAWIQA - 基于双分支CNN-Transformer的夜间图像质量评估框架
 
 ## 项目简介
 
-DAWIQA (Deep learning-based Adaptive Weighted Image Quality Assessment) 是一个基于深度学习的图像质量评估项目。该项目实现了多种先进的图像质量评估模型，支持多个公开数据集的训练和测试，并提供了完整的消融实验框架。
+DAWIQA (Dual-branch CNN-Transformer framework with AFPN and Wavelet fusion for night-time Image Quality Assessment) 是一个专门针对夜间图像质量评估的创新深度学习框架。该项目提出了一种新颖的双分支CNN-Transformer架构，充分利用卷积神经网络(CNN)和视觉Transformer(ViT)的互补优势，专门解决夜间复杂光照条件下的图像质量评估难题。
 
 ## 项目结构
 
 ```
 DAWIQA/
 ├── csvfiles/                    # 数据集划分文件
-│   ├── NNID_*/                  # NNID 数据集划分
+│   ├── NNID_/                  # NNID 数据集划分
 ├── my_models/                   # 模型定义
 │   ├── backbones/              # 骨干网络
 │   ├── components/              # 模型组件
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 #### 训练完整模型（推荐）
 ```bash
-bash train_entire.sh
+bash train_complete_model.sh
 ```
 
 #### 训练特定设备数据
