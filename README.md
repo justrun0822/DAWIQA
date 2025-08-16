@@ -77,9 +77,10 @@ python test_image_quality.py --model_path /path/to/model --test_images /path/to/
 ```
 
 
-## 支持的数据集
+## 数据集
 
-- **NNID**: Neural Network Image Database (D1, D2, D3 设备)
+- **NNID**: https://sites.google.com/site/xiangtaooo/
+natural night-time image database (NNID) 
 
 
 ## 训练参数说明
