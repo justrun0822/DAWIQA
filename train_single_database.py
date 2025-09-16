@@ -13,7 +13,7 @@ import IQADataset
 from utils import performance_fit
 import glob
 
-from my_models.my_iqa import MyIQAModel, CNNBaselineModel, ViTBaselineModel, CNNViTNoFusionModel, CNNViTWaveletModel
+from my_models.my_iqa import MyIQAModel
 
 
 def parse_args():
